@@ -1,0 +1,22 @@
+{
+    "name": "nicolasps/mosyle-test",
+    "description": "Projeto construído para satisfazer a challenge técnica de admissão da Mosyle",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nicolasps\\MosyleTest\\": "src/"
+        },
+        "files": [
+            "src/utils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Nicolas Souza"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+      "ext-simplexml": "*"
+    }
+}
